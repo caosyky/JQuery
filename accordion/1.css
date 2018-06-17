@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: url(images/bgnoise_lg.jpg);
+    font-family: segoe ui light;
+}
+
+.container {
+    text-align:  center;
+}
+
+.hieuung {
+    width:  40%;
+    margin:  auto;
+    margin-top:  50px;
+}
+
+.motkhoi h3 {background: #3498db;color: white;padding: 10px 12px;}
+
+.noidung {
+    padding:  10px;
+    border: 1px solid #b7b7b7;
+    background: white;
+    color: #565151;
+}
+
+.motkhoi h3:hover {
+    background: url(images/arrow_down.png) no-repeat 96% #3498db;
+}
+
+h3.doimau {
+	background: #27ae60;
+}
+
+h3.doimau:hover {
+	background: url(images/arrow_up.png) no-repeat 96% #27ae60;
+}
