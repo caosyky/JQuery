@@ -12,7 +12,7 @@ body {
 }
 
 .hieuung {
-    width:  40%;
+    width:  50%;
     margin:  auto;
     margin-top:  50px;
 }
@@ -36,4 +36,10 @@ h3.doimau {
 
 h3.doimau:hover {
 	background: url(images/arrow_up.png) no-repeat 96% #27ae60;
+}
+ 
+@media(max-width: 768px) {
+	.hieuung {
+    width:  96%;
+}
 }
