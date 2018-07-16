@@ -583,13 +583,14 @@ header {
 
 .themenu-mobi {
     transform: translateX(100%);
-    transition-duration: 0.5s;
+    transition-duration: 0.5s ease-in-out;
     position: fixed;
     height: 100%;
     width: 100%;
     background: #1ebea5;
     right: 0;
     top: 0px;
+    overflow-y: auto;
 }
 
 .mnav {
@@ -607,6 +608,7 @@ ul.site-nav-mobi {
     list-style:  none;
     padding-right: 66px;
     padding-left:  66px;
+    padding-bottom: 70px;
 }
 
 li.menu-item-mobi {
