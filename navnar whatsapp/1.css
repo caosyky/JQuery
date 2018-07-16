@@ -365,7 +365,7 @@ header {
 }
 
 ul.site-nav {
-	font-family: segoe ui, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     list-style: none;
     text-transform:  uppercase;
     font-size:  13px;
@@ -589,13 +589,39 @@ header {
     width: 100%;
     background: #1ebea5;
     right: 0;
-    top: 61px;
+    top: 0px;
 }
 
- .mobi-menu {
+.mnav {
+	height: 61px;
+	padding: 25px;
+	padding-top: 13px;
+	box-sizing: border-box;
+}
+
+.mobi-menu {
  	float: right;
- }
- .onclick2 {
- 	display: none;
- }
+}
+
+ul.site-nav-mobi {
+    list-style:  none;
+    padding-right: 66px;
+    padding-left:  66px;
+}
+
+li.menu-item-mobi {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing:  border-box;
+}
+
+li.menu-item-mobi a {
+    display:  block;
+    padding-top:  15px;
+    padding-bottom: 15px;
+}
+
 }
